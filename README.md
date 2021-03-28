@@ -4,10 +4,12 @@ Made for those who don't have the hardware needed to run waifu2x!
 
 [![Open in Colab](https://github.com/kathelynn/waifu2x-ncnn-vulkan/blob/master/colab-badge.svg)](https://colab.research.google.com/github/kathelynn/waifu2x-ncnn-vulkan/blob/master/waifu2x_ncnn_vulkan.ipynb)
 
-This is the ncnn-vulkan version, which means that it will output different results! The caffe version is coming soon (if I can figure it out).    
-Inspired by the [Google-Colab-waifu2x-chainer](https://github.com/mphirke/Google-Colab-waifu2x-chainer).
+This is the ncnn-vulkan version, which means that it is using Tencent's [ncnn](https://github.com/Tencent/ncnn) framework. This is done so the image output is faster, all while using the CPU version. The difference in image clarity should not be visible compared to others when viewing normally.
 
-CPU is also used in favor of the GPU version. This is the reason I used ncnn-vulkan instead of caffe, as well as 
+The caffe version is coming soon (if I can figure it out).    
+Inspired by the [Google-Colab-waifu2x-chainer](https://github.com/mphirke/Google-Colab-waifu2x-chainer). 
+
+You can switch the colab from CPU to GPU to increase performance, however I wouldn't recommend because it will hit your quota very quick. [Here's how it works](https://link.medium.com/QXrKqwgi0eb). You can enable the GPU in Runtime (located at the menu) > Hardware accelerator, then change the `-g` attribute.
 
 ---
 
