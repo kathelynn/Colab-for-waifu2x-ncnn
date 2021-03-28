@@ -154,7 +154,7 @@ Measure-Command { waifu2x-caffe-cui.exe -t 0 --gpu 0 -b 1 -c [block size] -p cud
 
 ### Original Image
 
-![origin](images/0.jpg)
+![origin](https://github.com/nihui/waifu2x-ncnn-vulkan/raw/master/images/0.jpg)
 
 ### Upscale 2x with ImageMagick
 
@@ -162,7 +162,7 @@ Measure-Command { waifu2x-caffe-cui.exe -t 0 --gpu 0 -b 1 -c [block size] -p cud
 convert origin.jpg -resize 200% output.png
 ```
 
-![browser](images/1.png)
+![browser](https://github.com/nihui/waifu2x-ncnn-vulkan/raw/master/images/1.png)
 
 ### Upscale 2x with ImageMagick Lanczo4 Filter
 
@@ -170,7 +170,7 @@ convert origin.jpg -resize 200% output.png
 convert origin.jpg -filter Lanczos -resize 200% output.png
 ```
 
-![browser](images/4.png)
+![browser](https://github.com/nihui/waifu2x-ncnn-vulkan/raw/master/images/4.png)
 
 ### Upscale 2x with waifu2x noise=2 scale=2
 
@@ -178,7 +178,7 @@ convert origin.jpg -filter Lanczos -resize 200% output.png
 waifu2x-ncnn-vulkan.exe -i origin.jpg -o output.png -n 2 -s 2
 ```
 
-![waifu2x](images/2.png)
+![waifu2x](https://github.com/nihui/waifu2x-ncnn-vulkan/raw/master/images/2.png)
 
 ## Original waifu2x Project
 
