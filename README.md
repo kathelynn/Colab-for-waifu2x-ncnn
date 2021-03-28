@@ -1,3 +1,16 @@
+# waifu2x-ncnn-vulkan in Google Colab by kathelynn
+
+Made for those who don't have the hardware needed to run waifu2x!
+
+[![Open in Colab](https://github.com/kathelynn/waifu2x-ncnn-vulkan/blob/master/colab-badge.svg)](https://colab.research.google.com/github/kathelynn/waifu2x-ncnn-vulkan/blob/master/waifu2x_ncnn_vulkan.ipynb)
+
+This is the ncnn-vulkan version, which means that it will output different results! The caffe version is coming soon (if I can figure it out).    
+Inspired by the [Google-Colab-waifu2x-chainer](https://github.com/mphirke/Google-Colab-waifu2x-chainer).
+
+CPU is also used in favor of the GPU version. This is the reason I used ncnn-vulkan instead of caffe, as well as 
+
+---
+
 # waifu2x ncnn Vulkan
 
 ![CI](https://github.com/nihui/waifu2x-ncnn-vulkan/workflows/CI/badge.svg)
