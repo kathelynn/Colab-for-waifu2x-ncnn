@@ -2,7 +2,7 @@
 
 Made for those who don't have the hardware needed to run waifu2x!
 
-[![Open in Colab](https://github.com/kathelynn/waifu2x-ncnn-vulkan/blob/master/colab-badge.svg)](https://colab.research.google.com/github/kathelynn/waifu2x-ncnn-vulkan/blob/master/waifu2x_ncnn_vulkan.ipynb)
+[![Open in Colab](https://github.com/kathelynn/waifu2x-ncnn-vulkan/blob/master/colab-badge.svg)](https://colab.research.google.com/github/kathelynn/Colab-for-waifu2x-ncnn/blob/master/waifu2x_ncnn_vulkan.ipynb)
 
 This is the ncnn-vulkan version, which means that it is using Tencent's [ncnn](https://github.com/Tencent/ncnn) framework. This is done so the image output is faster, all while using the CPU version. The difference in image clarity should not be visible compared to others when viewing normally.
 
